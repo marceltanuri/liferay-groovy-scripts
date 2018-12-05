@@ -39,7 +39,6 @@ while(count<2){
 
         if (layout.isSupportsEmbeddedPortlets()) {
             LayoutTypePortlet layoutTypePortlet = (LayoutTypePortlet)layout.getLayoutType();
-            List<String> portletIds = layoutTypePortlet.getPortletIds();
 
             for (Portlet portlet : layoutTypePortlet.getAllPortlets()) {
                 if (portlet.getPortletName().equals(embedded_portlet_name)) {
