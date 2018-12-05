@@ -30,7 +30,6 @@ while(count<2){
                 parent = LayoutLocalServiceUtil.fetchLayout(parentPlid);
                 treePath = parent.getName() + ' / ' + treePath;
             }
-            
         }
 
         if (!treePath.isEmpty()) {
